@@ -22,4 +22,5 @@ class Triangle
     test3 = (@length1 + @length2) > @length3
     test2 = (@length1 + @length3) > @length2
     test1 = (@length3 + @length2) > @length1
+  end
 end
