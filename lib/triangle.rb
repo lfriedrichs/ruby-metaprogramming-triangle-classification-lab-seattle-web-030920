@@ -18,6 +18,7 @@ class Triangle
   else 
     #customerror
   end
+end
   
   def is_triangle
     test3 = (@length1 + @length2) > @length3
