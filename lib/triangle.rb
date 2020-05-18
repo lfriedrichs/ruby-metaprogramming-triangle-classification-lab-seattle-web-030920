@@ -6,16 +6,15 @@ class Triangle
   end
   
   def kind 
-    if (is_triangle) do
-      if (@length1 == @length2 && @length2 == @length3) do
+    if (is_triangle)
+      if (@length1 == @length2 && @length2 == @length3)
         return :equilateral 
-      elsif (@length1 == @length2 || @length2 == @length3 || @length3 == @length1) do
+      elsif (@length1 == @length2 || @length2 == @length3 || @length3 == @length1)
         return :isosceles 
       else 
         return :scalene
     end 
-  end
-  else do 
+  else 
     #customerror
   end
   
