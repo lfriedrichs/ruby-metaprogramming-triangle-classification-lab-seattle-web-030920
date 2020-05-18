@@ -14,7 +14,6 @@ class Triangle
       else 
         return :scalene
       end 
-    end
   else 
     #customerror
   end
