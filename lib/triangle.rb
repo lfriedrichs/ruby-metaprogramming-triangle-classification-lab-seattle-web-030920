@@ -16,7 +16,7 @@ class Triangle
         return :scalene
       end 
   else 
-    Triangle::TriangleError
+    TriangleError.new
   end
 end
   
