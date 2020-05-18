@@ -32,7 +32,7 @@ end
   end
   
   class TriangleError < StandardError
-    # triangle error code
+    puts "Not a triangle"
   end
   
 end
